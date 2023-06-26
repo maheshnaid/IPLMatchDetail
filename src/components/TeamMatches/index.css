@@ -1,0 +1,85 @@
+/* Write your CSS here */
+.team-match-container {
+  width: 70%;
+  padding: 26px;
+}
+
+.banner {
+  width: 50%;
+}
+
+@media screen and (min-width: 768px) {
+  .banner {
+    width: 100%;
+  }
+}
+
+.latestMathCard {
+  width: 50%;
+}
+
+@media screen and (min-width: 768px) {
+  .latestMathCard {
+    width: 100%;
+  }
+}
+
+.recent-matches {
+  padding-left: 0px;
+  width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media screen and (min-width: 768px) {
+  .recent-matches {
+    padding-left: 0px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: center; */
+    padding: 14px;
+  }
+}
+
+.latestMatchHeading {
+  font-family: Bree serif;
+  font-size: 16px;
+}
+
+.latestMatchHeading {
+  font-family: Bree serif;
+  color: #ffffff;
+}
+
+.RCB {
+  background: linear-gradient(to top, #1e293b, #d91c1f);
+}
+
+.MI {
+  background: linear-gradient(to top, #1e293b, #13418b);
+}
+
+.CSK {
+  background: linear-gradient(to top, #1e293b, #f7db00);
+}
+
+.KKR {
+  background: linear-gradient(' #5755a7', '#1e293b');
+}
+
+.RR {
+  background: linear-gradient(to top, #1e293b, #da237b);
+}
+
+.KXP {
+  background: linear-gradient(to top, #1e293b, #a4261d);
+}
+
+.SRH {
+  background: linear-gradient(to top, #1e293b #f26d22);
+}
+
+.DC {
+  background: linear-gradient(to top, #1e293b, #13418b);
+}

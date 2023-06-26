@@ -1,0 +1,111 @@
+/* Write your CSS here */
+.latest-match-container {
+  background-color: #0f172a;
+  width: 100%;
+  border-radius: 16px;
+}
+
+.large-device-container {
+  display: flex;
+  background-color: #0f172a;
+  align-items: center;
+  justify-content: space-between;
+  padding: 24px;
+  border-radius: 16px;
+}
+
+@media screen and (max-width: 767px) {
+  .large-device-container {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .latest-match-container {
+    display: none;
+  }
+}
+
+.details-container-one {
+  display: flex;
+  align-items: center;
+  padding: 18px;
+}
+
+.competingTeam {
+  height: 80px;
+}
+
+@media screen and (min-width: 768px) {
+  .competingTeam {
+    height: 160px;
+  }
+
+  .date {
+    font-size: 28px;
+  }
+
+  .venue {
+    font-size: 22px;
+    width: 240px;
+  }
+}
+
+.competing-team-name {
+  font-family: Bree serif;
+  color: #ffffff;
+  font-size: 26px;
+  font-weight: 300;
+}
+
+@media screen and (min-width: 768px) {
+  .competing-team-name {
+    font-size: 38px;
+  }
+}
+
+.venue {
+  font-family: Bree serif;
+  color: #ffffff;
+  font-weight: 300;
+}
+
+.result {
+  font-family: Bree serif;
+  color: #ffffff;
+  font-weight: 400;
+}
+
+.date {
+  font-family: Bree serif;
+  color: #ffffff;
+  font-weight: 400;
+}
+
+.head {
+  font-family: Bree serif;
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+@media screen and (min-width: 768px) {
+  .head {
+    text-align: end;
+  }
+
+  .details {
+    text-align: end;
+  }
+}
+
+.details {
+  font-family: Bree serif;
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 13px;
+}
+
+.second-container {
+  padding: 18px;
+}

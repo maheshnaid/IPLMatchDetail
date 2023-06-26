@@ -1,0 +1,56 @@
+/* Write your CSS here */
+
+.nav-link {
+  list-style-type: none;
+  text-decoration: none;
+}
+
+.team {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ffffff;
+  padding: 10px;
+  justify-content: center;
+  border-radius: 12px;
+  height: 120px;
+  background-color: #ffffff33;
+  width: 200px;
+  margin: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .team {
+    padding: 3px;
+    min-height: 130px;
+    width: 400px;
+  }
+}
+
+.team-logo {
+  height: 60px;
+}
+
+.team-name {
+  font-family: Bree serif;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 400;
+  width: 120px;
+  text-align: center;
+  margin-left: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .team-logo {
+    height: 100px;
+  }
+
+  .team-name {
+    font-family: Bree serif;
+    color: #ffffff;
+    font-size: 23px;
+    font-weight: 400;
+    text-align: center;
+    width: 220px;
+  }
+}
