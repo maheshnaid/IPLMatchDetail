@@ -1,6 +1,6 @@
 /* Write your CSS here */
 .team-match-container {
-  width: 70%;
+  width: 80%;
   padding: 26px;
 }
 
@@ -65,7 +65,7 @@
 }
 
 .KKR {
-  background: linear-gradient(' #5755a7', '#1e293b');
+  background: linear-gradient(to top, #5755a7, #1e293b);
 }
 
 .RR {
